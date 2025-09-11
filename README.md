@@ -17,6 +17,76 @@ A comprehensive job portal application built using the MERN (MongoDB, Express.js
 - **Image Upload:** Cloudinary for storing and managing uploaded images
 - **Deployment:** Vercel (frontend), Render(backend), MongoDB Atlas (database)
 
+## Architecture
+  career-connect-portal/
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Common/
+│   │   │   │   ├── Navbar.jsx
+│   │   │   │   ├── Footer.jsx
+│   │   │   │   ├── Dropdown.jsx
+│   │   │   │   └── RangeSlider.jsx
+│   │   │   ├── Home/
+│   │   │   │   ├── HeroSection.jsx
+│   │   │   │   ├── HowItWorks.jsx
+│   │   │   │   ├── PopularCategories.jsx
+│   │   │   │   └── PopularCompanies.jsx
+│   │   │   ├── Auth/
+│   │   │   │   ├── Login.jsx
+│   │   │   │   └── Register.jsx
+│   │   │   ├── Job/
+│   │   │   │   ├── Jobs.jsx
+│   │   │   │   ├── JobDetails.jsx
+│   │   │   │   ├── PostJob.jsx
+│   │   │   │   ├── MyJobs.jsx
+│   │   │   │   ├── JobFilters.jsx
+│   │   │   │   └── MyApplications.jsx
+│   │   │   └── NotFound.jsx
+│   │   ├── pages/
+│   │   │   ├── HomePage.jsx
+│   │   │   ├── JobListingsPage.jsx
+│   │   │   ├── ProfilePage.jsx
+│   │   │   └── EmployerDashboard.jsx
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── App.css
+│   └── package.json
+│
+├── backend/
+│   ├── controllers/
+│   │   ├── jobController.js
+│   │   ├── applicationController.js
+│   │   └── userController.js
+│   ├── models/
+│   │   ├── jobSchema.js
+│   │   ├── applicationSchema.js
+│   │   └── userSchema.js
+│   ├── routes/
+│   │   ├── jobRoutes.js
+│   │   ├── applicationRoutes.js
+│   │   └── userRoutes.js
+│   ├── middlewares/
+│   │   ├── auth.js
+│   │   ├── error.js
+│   │   └── authAsyncError.js
+│   ├── utils/
+│   │   ├── jwtToken.js
+│   │   └── errorHandler.js
+│   ├── config/
+│   │   └── dbConnection.js
+│   ├── server.js
+│   └── package.json
+│
+├── .gitignore
+├── README.md
+└── package.json
+
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
