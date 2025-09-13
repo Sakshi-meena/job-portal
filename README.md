@@ -85,6 +85,3 @@ Contributions are what make the open-source community such an amazing place to l
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request (`we will merge within 24 hour`)
-
-## Live Demo 
-https://drive.google.com/file/d/13YBJFS2cexbEwrTcYjpjjLEH3Bo7OFvp/view
