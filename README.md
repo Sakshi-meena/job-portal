@@ -17,9 +17,6 @@ A comprehensive job portal application built using the MERN (MongoDB, Express.js
 - **Image Upload:** Cloudinary for storing and managing uploaded images
 - **Deployment:** Vercel (frontend), Render(backend), MongoDB Atlas (database)
 
-## Project Structure 
-  
-
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
