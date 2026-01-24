@@ -25,7 +25,8 @@ app.use(
   cors({
     origin: [
       process.env.FRONTEND_URL,
-      "http://localhost:5173", // for local dev
+     // "http://localhost:5173", // for local dev
+      "https://job-portal-fsok.vercel.app", 
     ],
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
