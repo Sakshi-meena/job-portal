@@ -19,7 +19,7 @@ config({ path: "./config/config.env" });
 //     credentials: true,
 //   })
 // );
-import cors from "cors";
+//import cors from "cors";
 
 app.use(
   cors({
