@@ -26,7 +26,8 @@ app.use(
     origin: [
       process.env.FRONTEND_URL,
      // "http://localhost:5173", // for local dev
-      "https://job-portal-fsok.vercel.app", 
+      //"https://job-portal-fsok.vercel.app", 
+      "https://job-portal-frontend-chi-flame.vercel.app",
     ],
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
