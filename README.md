@@ -77,3 +77,10 @@ To get a local copy up and running follow these simple steps.
 
 4. ### Project Demo
    https://drive.google.com/file/d/13YBJFS2cexbEwrTcYjpjjLEH3Bo7OFvp/view
+
+   ## Fronted URL
+   https://job-portal-frontend-chi-flame.vercel.app
+   
+   ## Backend URL
+   https://job-portal-f75k.onrender.com
+   
