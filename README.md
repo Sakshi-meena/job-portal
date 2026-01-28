@@ -9,12 +9,13 @@ A comprehensive job portal application built using the MERN (MongoDB, Express.js
 - **Application Management:** Job seekers can manage their job applications, and employers can view and manage received applications.
 - **Responsive Design:** Ensures a seamless experience across all devices.
 
-## Technologies Used
+## Tech Stack Used
 
-- **Frontend:** React.js, React Router, API Calls
-- **Backend:** Node.js, Express.js, MongoDB
-- **Authentication:** JWT (JSON Web Tokens), Bcrypt (for password hash)
-- **Deployment:** Vercel (frontend), Render(backend), MongoDB Atlas (database)
+* **Frontend:** React.js (UI, forms, dashboards, API calls)
+* **Backend:** Node.js, Express.js (REST APIs, business logic)
+* **Database:** MongoDB (users, jobs, applications)
+* **Authentication:** JWT (JSON Web Token)
+* **Security:** Password hashing (bcrypt), protected routes via middleware
 
 ## Getting Started
 
@@ -82,4 +83,20 @@ To get a local copy up and running follow these simple steps.
    
 9. ### Backend URL
    https://job-portal-f75k.onrender.com
-   
+
+## Final System Diagram
+
+```
+   React Frontend (UI)
+          |
+          |  HTTP Requests (REST APIs)
+          v
+   Node.js + Express Backend
+          |
+          |  JWT Middleware (Auth)
+          v
+   Controllers (Business Logic)
+          |
+          v
+      MongoDB Database
+
