@@ -84,7 +84,7 @@ To get a local copy up and running follow these simple steps.
 9. ### Backend URL
    https://job-portal-f75k.onrender.com
 
-## Final System Diagram
+### Final System Diagram
 
 ```
    React Frontend (UI)
